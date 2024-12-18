@@ -66,7 +66,7 @@ typedef struct
   union {
     char byte;
     short integer2;
-    int integer4;
+    int32_t integer4;
     MQTTLenString data;
     MQTTStringPair string_pair; /* for user properties */
   } value;
