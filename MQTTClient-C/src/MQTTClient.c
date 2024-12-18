@@ -15,7 +15,11 @@
  *   Ian Craggs - fix for #96 - check rem_len in readPacket
  *   Ian Craggs - add ability to set message handler separately #6
  *******************************************************************************/
+
+#include "paho_network.h"
+#include "paho_timer.h"
 #include "MQTTClient.h"
+
 
 #include <stdio.h>
 #include <string.h>
